@@ -33,16 +33,17 @@ void Grid::handleEvent(sf::Event event)
     }
 }
 
-void Grid::draw(sf::RenderWindow& window)
+void Grid::update()
 {
-    sf::Font font;
     font.loadFromFile("font/arial.ttf");
 
     whoPlay.setFont(font);
     whoPlay.setCharacterSize(20);
     whoPlay.setString(Xplay ? "Tour de X" : "Tour de O");
     whoPlay.setPosition(110, 10);
-
+}
+void Grid::draw(sf::RenderWindow& window)
+{
     window.draw(whoPlay);
 
     for (int i = 0; i < gridSize; ++i) {

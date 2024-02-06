@@ -19,6 +19,7 @@ int main()
         }
 
         window.clear();
+        gameGrid.update();
         gameGrid.draw(window);
         window.display();
 
@@ -27,11 +28,11 @@ int main()
             window.close();
         }
         else if (gameGrid.checkWin('O')) {
-            std::cout << "X win" << std::endl;
+            std::cout << "O win" << std::endl;
             window.close();
         }
         else if (gameGrid.isFull()) {
-            std::cout << "X win" << std::endl;
+            std::cout << "Egalite" << std::endl;
             window.close();
         }
     }
