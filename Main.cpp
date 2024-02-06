@@ -1,7 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include "Grid.h"
 #include <iostream>
-
+/*
 int main()
 {
     sf::RenderWindow window(sf::VideoMode(300, 350), "Morpion");
@@ -37,4 +37,4 @@ int main()
     }
 
     return 0;
-}
+}*/
