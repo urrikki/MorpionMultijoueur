@@ -24,6 +24,7 @@
     <ProjectGuid>{ad9e8680-374f-4155-b44c-b9635794ae2f}</ProjectGuid>
     <RootNamespace>MorpionG</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>MorpionG2</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
